@@ -96,3 +96,12 @@ Assignments
     margin:20px auto;
     width:860px;
 }
+/*
+About
+*/
+.about-list-container{
+    border:4px solid #ddd;
+    text-align: left;
+    padding: 20px;
+    margin:20px;
+}
