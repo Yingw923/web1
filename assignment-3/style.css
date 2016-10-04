@@ -47,6 +47,11 @@ a.hero-card-link:hover{
     color: #D69E00;
     border-color: #D69E00;
 }
+.hero-card-title{
+    font-family: georgia, serif;
+    margin:0;
+    font-size: 50px;
+}
 /*
 Navigation
 */
