@@ -1,0 +1,29 @@
+body{
+    text-align:center;
+}
+p{
+    background-color: gray;
+    width:200px;
+    display:inline-block;
+}
+a{
+    background-color:green;
+    color:#ffffff;
+    padding: 10px 20px;
+    width:200px;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+div{
+    border:2px solid red;
+    /*
+    to center a block element
+    set the width.
+    */
+    
+    width:420px;
+ 
+     margin-left:auto;
+    margin-right:auto;
+}
