@@ -188,6 +188,7 @@ a.card{
     text-decoration: none;
     color: #333;
     transition:all 0.2s ease;
+    display: inline;
 }
 .card:hover{
     transform:scale(1.025);
@@ -203,4 +204,7 @@ a.card{
     padding:0 20px;
     margin:0 0 20px 0;
     color:#999;
+}
+.clear{
+    clear:both;
 }
