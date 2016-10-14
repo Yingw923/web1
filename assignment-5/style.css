@@ -94,12 +94,17 @@ a.nav-link:hover{
     background-repeat:no-repeat;
     border-radius: 3px;
     transition:all 0.2s ease;
+    background-position: center;
     
+}
+.logo:hover{
+    background-color: rgba(0,0,0,0.4);
 }
 /* Main Content*/
 .main-content{
     padding:20px;
     text-align: center;
+    display: inline-block;
 }
 /*
 Footer
@@ -169,4 +174,33 @@ Search
     margin:20px auto;
     padding:20px;
     text-align:center;
+}
+/*
+Home
+*/
+a.card{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    width: calc(33.3%-20px);
+    min-height: 310px;
+    margin:10px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    transition:all 0.2s ease;
+}
+.card:hover{
+    transform:scale(1.025);
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+}
+.card-titlt{
+    padding:0 20px;
+    margin:0 0 20px 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+}
+.card-description{
+    padding:0 20px;
+    margin:0 0 20px 0;
+    color:#999;
 }
