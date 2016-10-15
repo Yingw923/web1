@@ -88,9 +88,9 @@ a.nav-link:hover{
     width:0;
     height:0;
     color:rgba(255,255,255,0);
-    padding:60px 160px 0 0;
+    padding:0 160px 0 0;
     background-image: url('images/logo.png')
-    background-size:120px 60px;
+    
     background-repeat:no-repeat;
     border-radius: 3px;
     transition:all 0.2s ease;
@@ -183,12 +183,12 @@ a.card{
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
     width: calc(33.3%-20px);
     min-height: 310px;
-    margin:10px;
+    margin:
     float: left;
     text-decoration: none;
     color: #333;
     transition:all 0.2s ease;
-    display: inline;
+    display: inline-block;
 }
 .card:hover{
     transform:scale(1.025);
