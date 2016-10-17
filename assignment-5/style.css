@@ -105,6 +105,8 @@ a.nav-link:hover{
     padding:20px;
     text-align: center;
     display: inline-block;
+    margin: 50px auto;
+    width: 960px;
 }
 /*
 Footer
@@ -195,7 +197,7 @@ Search
 /*
 Home
 */
-a.card{
+.card{
     background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
     width: calc(33.3% — 20px);
