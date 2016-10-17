@@ -2,19 +2,19 @@
 General Styling
 */
 @import 'https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Cormorant|Poiret+One|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i';
-body{
+body {
     font-family: "Roboto", arial, sans-serif;
     font-weight: 400;
     background-color: #f1f1f1;
     color: #333;
-    margin: 0;
+    margin:0;
 }
-a,a:visited{
+a, a:visited {
     text-decoration: none;
-    color:#d69e00;
-    }
-    a:hover{
-        color:#e4b532
+    color: #333;
+}
+a:hover {
+    color: #e4b532;
     }
 /*
 Hero
@@ -201,7 +201,7 @@ Search
 Home
 */
 .card {
-   background-color: #fff;
+    background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
     width:calc(33.3%,-20px);
     min-height: 310px;
@@ -216,13 +216,20 @@ Home
     box-shadow:0px 2px 3px rgba(0,0,0,0.3);
     
 }
-.card-title
-{
-     padding: 0px 20px;
+.card-title {
+
+    padding: 0px 20px;
     margin: 40px 0 10px 0;
     font-size: 24px;
     font-family: "Cormorant Garamond";
+}
+.card h4 {
+    color:#fff;
     
+    
+}
+.card img{
+    margin-bottom: 15px;
 }
 .card-description{
     padding: 0 20px;
@@ -230,12 +237,6 @@ Home
     color: #999;
 }
 
-.card img{
-    margin-bottom: 15px;
-}
 .clear{
     clear:both;
-}
-.div{
-        display: block;
 }
