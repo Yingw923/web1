@@ -82,20 +82,19 @@ a.nav-link:hover{
     border-color: #FFD86B;
     background-color: rgba(0,0,0,0.4);
 }
-.logo{
-    float:left;
-    margin-right:100px;
-    width:0;
-    height:0;
-    color:rgba(255,255,255,0);
-    padding:0 160px 0 0;
-    background-image: url('images/logo.png')
-    
-    background-repeat:no-repeat;
-    border-radius: 3px;
-    transition:all 0.2s ease;
+#logo{
+    float: left;
+    margin-right: 100px;
+    width: 0;
+    height: 0;
+    color: rgba(255,255,255,0);
+    padding: 60px 160px 0 0;
+    background-image: url(images/logo.png);
+    background-size: 120px 60px;
     background-position: center;
-    
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    transition: all 0.2s ease;
 }
 .logo:hover{
     background-color: rgba(0,0,0,0.4);
