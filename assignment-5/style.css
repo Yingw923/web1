@@ -101,9 +101,12 @@ a.nav-link:hover{
 }
 /* Main Content*/
 .main-content{
-   
+    
     margin: 50px auto;
     width: 960px;
+}
+.main-content img{
+    float:left;
 }
 /*
 Footer
@@ -197,32 +200,38 @@ Search
 /*
 Home
 */
-.card{
-    background-color: #fff;
+.card {
+   background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-    width: calc(33.3%,-20px);
+    width:calc(33.3%,-20px);
     min-height: 310px;
     margin: 10px;
     float: left;
-    text-decoration: none;
+    text-decoration:none;
     color: #333;
     transition: all .2s ease;
-    
 }
 .card:hover{
-    transform:scale(1.025);
-    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    transform: scale(1.025,1.025);
+    box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+    
 }
-.card-titlt{
-    padding: 0px 20px;
-    margin: 20px 0 10px 0;
+.card-title
+{
+     padding: 0px 20px;
+    margin: 40px 0 10px 0;
     font-size: 24px;
     font-family: "Cormorant Garamond";
+    
 }
 .card-description{
     padding: 0 20px;
     margin: 0 0 20px 0;
     color: #999;
+}
+
+.card img{
+    margin-bottom: 15px;
 }
 .clear{
     clear:both;
