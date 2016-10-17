@@ -200,13 +200,13 @@ Home
 .card{
     background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-    width: calc(33.3% — 20px);
+    width: calc(33.3%,-20px);
     min-height: 310px;
-    margin:1px;
+    margin: 10px;
     float: left;
     text-decoration: none;
     color: #333;
-    transition:all 0.2s ease;
+    transition: all .2s ease;
     
 }
 .card:hover{
@@ -214,15 +214,15 @@ Home
     box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
 }
 .card-titlt{
-    padding:0 20px;
-    margin:0 0 20px 0;
-    font-family: 'Poiret One', cursive;
+    padding: 0px 20px;
+    margin: 20px 0 10px 0;
     font-size: 24px;
+    font-family: "Cormorant Garamond";
 }
 .card-description{
-    padding:0 20px;
-    margin:0 0 20px 0;
-    color:#999;
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    color: #999;
 }
 .clear{
     clear:both;
