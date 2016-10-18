@@ -116,6 +116,7 @@ Footer
     color: #999;
     padding:20px;
     text-align: center;
+    width: 1000px
 }
 .footer-link:hover{
     color: #AB810A;
