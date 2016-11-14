@@ -1,0 +1,64 @@
+body{
+    font-family: arial, sans-serif;
+    margin:0;
+}
+.main-nav{
+    background-color: #333333;
+    text-align: center;
+    font-size:20px;
+    
+}
+.nav-teal{
+    color: #62b7bb;
+}
+.nav-red{
+    color: #ee5573;
+}
+.nav-blue{
+    color: #288bcd;
+}
+.nav-yellow{
+    color: #ffa73a
+}
+.nav-link{
+    text-decoration: none;
+    padding:10px 20px;
+    display: inline-block;
+    border-radius: 3px;
+    margin:5px;
+}
+.nav-link:hover{
+    background-color: rgba(255,255,255,0.1)
+}
+/*hero*/
+.hero{
+    background-image: url("images/city-yellow.jpg");
+    min-height: 400px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+.hero-h1 {
+    margin: 0;
+    padding-top: 100px;
+}
+.left-box{
+    background-color: #ffa73a;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.right-box{
+    border:2px solid #ffa73a;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.main-content{
+    text-align: center;
+}
