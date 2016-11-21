@@ -33,3 +33,20 @@ a.nav-link:hover{
     max-width: 1200px;
     text-align: center;
 }
+.hero{
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    text-align: center;
+    overflow:auto;}
+    
+#home.hero{
+    background-image: url('images/homeback.jpg')
+}
+#food.hero{
+     background-image: url('images/foodback.jpg')
+}
+#exercise.hero{
+     background-image: url('images/exerciseback.jpg')
+}
