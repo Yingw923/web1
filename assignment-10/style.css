@@ -21,7 +21,7 @@ a.nav-link{
     margin: 10px 5px;
     padding:0px 15px;
     
-    border:2px solid rgba(255,255,255,0);
+    
     transition:all 0.2s ease;
 }
 a.nav-link:hover{
