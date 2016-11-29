@@ -50,3 +50,47 @@ a.nav-link:hover{
 #exercise.hero{
      background-image: url('images/exerciseback.jpg')
 }
+.headtext{
+    text-align: center:
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.4);
+    color: #efefef;
+    margin:110px auto 60px auto;
+    padding:50px;
+    max-width: 960px;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
+}
+.card {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    width: 300px;
+    min-height: 310px;
+    margin: 10px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    transition: all .2s ease;
+}
+.card:hover{
+    transform: scale(1.025,1.025);
+    box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+}
+
+.leftbox{
+	
+    background-color: #ffa73a;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+	}
+.rightbox{
+    border:2px solid #ffffff;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+	text-align:center;
+	}
+    
