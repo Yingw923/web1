@@ -51,6 +51,8 @@ body{
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
+    text-align: center;
+    display: inline-block;
 }
 .right-box{
     border:2px solid #ffa73a;
@@ -61,4 +63,15 @@ body{
 }
 .main-content{
     text-align: center;
+}
+.hero-card-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 20px;
+    display: inline-block;
+    transition: all 0.2s ease;
+    margin-left: -140px;
 }
