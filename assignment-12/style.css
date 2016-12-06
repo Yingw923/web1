@@ -96,9 +96,19 @@ a.nav-link:hover{
 	text-align:center;
 	}
     
+.block {
+	
+}
 
 .card img {
     width: 150px;
 	
 	padding-left:50px;
+}
+p {
+    line-height: 1.5; 
+    
+}
+.video {
+    margin-right: 50px;
 }
