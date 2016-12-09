@@ -1,0 +1,158 @@
+.body{
+max-width: 1200px;
+}
+
+/*
+nav
+*/
+
+.main-nav{
+    margin:20px auto;
+    
+    text-align:right;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+}
+a.nav-link{
+    box-sizing:border-box;
+    color: black;
+    text-decoration:none;
+    height:40px;
+    line-height: 38px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    display:inline-block;
+    margin: 10px 5px;
+    padding:0px 15px;
+    
+    
+    transition:all 0.2s ease;
+}
+a.nav-link:hover{
+    color: #F33559;
+    border-color: #F33559;
+    
+}
+.hero-image{
+    max-width: 1200px;
+    text-align: center;
+}
+.hero{
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    text-align: center;
+    overflow:auto;}
+    
+#home.hero{
+    background-image: url('images/homeback.jpg')
+}
+#food.hero{
+     background-image: url('images/foodback.jpg')
+}
+#exercise.hero{
+     background-image: url('images/exerciseback.jpg')
+}
+.headtext{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.4);
+    color: #efefef;
+    margin:110px auto 60px auto;
+    padding:50px;
+    max-width: 960px;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
+}
+.bodytext{
+    text-align: left;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.7);
+    color: #efefef;
+    margin:110px auto 60px auto;
+    padding:50px;
+    max-width: 960px;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
+}
+.card {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    width: 300px;
+    min-height: 310px;
+    margin-top: 100px;
+	margin-left:205px;
+    height:504px;
+    text-decoration: none;
+    color: #333;
+    transition: all .2s ease;
+	float: left;
+}
+.card:hover{
+    transform: scale(1.025,1.025);
+    box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+}
+
+.leftbox{
+	
+    background-color: #ffa73a;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+	}
+.rightbox{
+    border:2px solid #ffffff;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+	text-align:center;
+	}
+    
+.block {
+	
+}
+
+.card img {
+    width: 150px;
+	
+	padding-left:50px;
+}
+p {
+    line-height: 1.5; 
+    
+}
+.video {
+    margin-right: 100px;
+}
+.hero-link{
+	text-align:center;
+	text-decoration: none;
+	border:2px solid #474747;
+	font-size:45px;
+	color:#474747;
+	margin-left:320px;
+	display:inline-block;
+	font-family: 'Poiret One', cursive;
+	border-radius: 3px;
+}
+.hero-link:hover{
+color:#f4355b;
+border:2px solid #f4355b;
+
+}
+#main-body-h{
+background-image: url(images/hbck.png);
+background-size: cover;
+}
+#main-body-fe{
+background-image: url(images/bck.png);
+    overflow: hidden;
+	background-size: cover;
+}
+.vdo{
+	width:600px;
+	margin-left:300px;
+	margin-right:300px;
+}
